@@ -1,6 +1,7 @@
 pipeline {
     agent {
-        node('Windows1') {
+        node {
+            label 'Windows1' 
         }
            }
 
