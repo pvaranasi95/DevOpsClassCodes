@@ -1,5 +1,8 @@
 pipeline {
-    agent any
+    agent {
+        node('Windows1') {
+        }
+           }
 
     stages {
         stage('Compile') {
